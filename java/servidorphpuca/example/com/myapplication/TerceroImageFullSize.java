@@ -53,7 +53,6 @@ public class TerceroImageFullSize extends Activity{
 
 
 
-        Log.i("gol",path);
 
 
 
