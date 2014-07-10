@@ -11,9 +11,6 @@ import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
-import com.nostra13.universalimageloader.utils.StorageUtils;
-
-import java.io.File;
 
 
 public class TerceroImageFullSize extends Activity{
@@ -21,38 +18,28 @@ public class TerceroImageFullSize extends Activity{
     ImageView imageVi;
     String url=null;
 
-    int pos;
+
     DisplayImageOptions options;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_full_size);
         imageVi =(ImageView)findViewById(R.id.imagefullsize);
-        File s= StorageUtils.getCacheDirectory(this);
-           String data[]= s.list();
 
-            loader = SitesAdapter.loader();
 
+        loader = SitesAdapter.loader();
 
         Bundle extras = getIntent().getExtras();
 
         if (extras != null) {
 
-            pos=  extras.getInt("position");
+
             url=extras.getString("urls");
         }
 
         options = new DisplayImageOptions.Builder()
                 .showImageForEmptyUri(R.drawable.ic_launcher).cacheOnDisk(true).cacheInMemory(false)
                 .build();
-
-
-        String path = "file:///"+s.getPath()+"/"+data[pos];
-
-
-
-
-
 
 
 
