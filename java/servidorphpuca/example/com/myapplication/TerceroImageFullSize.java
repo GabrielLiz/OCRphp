@@ -63,6 +63,7 @@ public class TerceroImageFullSize extends Activity{
             public void onLoadingCancelled(String s, View view) {
                 Log.i("gol","Cancell");
             }
+
         });
 
 
