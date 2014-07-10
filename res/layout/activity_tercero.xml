@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <GridView
+        android:id="@+id/gv_images"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth" 
+        android:columnWidth="100dp"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp">
+    </GridView>
+    
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:scaleType="fitXY"/>
+
+</merge>
+
+<!--
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/lv_images">
+    </ListView>
+     
+</LinearLayout>
+
+ -->
+    
+    

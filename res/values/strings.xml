@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ServidorPHPuca</string>
+    <string name="action_settings">Settings</string>
+    <string name="Principal">Selecciona la opción deseada:</string>
+    <string name="Detectar">Detectar caracteres</string>
+    <string name="Sacar">Sacar imagen</string>
+    <string name="Guardar">Guardar imagen</string>
+    <string name="Salir">Salir</string>
+    <string name="title_activity_secundario">Secundario</string>
+    <string name="secundario">Pantalla secundaria</string>
+    <string name="foto">Tomar foto</string>
+    <string name="Camara">Cámara</string>
+    <string name="fotoimagen">TODO</string>
+    <string name="fotoPHP">imagenservidor</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_tercero">Tercero</string>
+    <string name="pantalla">Siguiente pantalla</string>
+    <string name="atras">Atrás</string>
+    <string name="devuelveimagen">Introduce el nombre de la imagen:</string>
+    <string name="title_activity_cuarto">Cuarto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="enviar">Enviar</string>
+    <string name="palabraclave">Escribe palabra clave</string>
+    <string name="mensajeinfo">MENSAJE DE INFORMACIÓN</string>
+    <string name="textoimagen">Texto Imagen</string>
+    <string name="texto_lista">Texto Lista</string>
+    <string name="fotolista">Foto Lista</string>
+
+</resources>
