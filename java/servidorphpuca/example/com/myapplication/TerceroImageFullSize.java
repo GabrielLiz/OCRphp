@@ -31,10 +31,8 @@ public class TerceroImageFullSize extends Activity{
            String data[]= s.list();
 
             loader = SitesAdapter.loader();
-            if (loader!=null){
 
-                Log.i("gol","esta null");
-            }
+
         Bundle extras = getIntent().getExtras();
 
         if (extras != null) {
@@ -47,7 +45,7 @@ public class TerceroImageFullSize extends Activity{
                 .showImageForEmptyUri(R.drawable.ic_launcher).cacheOnDisk(true).cacheInMemory(false)
                 .build();
 
-      //  loader.init(ImageLoaderConfiguration.createDefault(this));
+
         String path = "file:///"+s.getPath()+"/"+data[pos];
 
 
