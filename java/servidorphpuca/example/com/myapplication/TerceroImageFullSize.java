@@ -20,6 +20,7 @@ public class TerceroImageFullSize extends Activity{
     ImageLoader loader;
     ImageView imageVi;
     String url=null;
+
     int pos;
     DisplayImageOptions options;
     @Override
