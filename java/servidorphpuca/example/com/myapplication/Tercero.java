@@ -51,7 +51,7 @@ public class Tercero extends Activity {
                     bs.putString("urls",mAdapter.getItem(position).toString());
 
                     imsagefullsize.putExtras(bs);
-
+                    // este es un test :D
                     startActivity(imsagefullsize);
 
             }
