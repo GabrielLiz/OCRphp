@@ -18,8 +18,7 @@ public class Cuarto extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		// this is the test pushing
-		// keeptesting
+	
 		getMenuInflater().inflate(R.menu.cuarto, menu);
 		return true;
 	}
